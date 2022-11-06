@@ -1,10 +1,10 @@
 public class Car {
-    String brand;
-    String model;
-    double engineVolume;
-    String color;
-    int productionYear;
-    String productionCountry;
+    private final String brand;
+    private final String model;
+    private final double engineVolume;
+    private final String color;
+    private final int productionYear;
+    private final String productionCountry;
     Car(String brand, String model, double engineVolume, String color, int productionYear, String productionCountry) {
         if (brand == null) {
             this.brand = "Default";
